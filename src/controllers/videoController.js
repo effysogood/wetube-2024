@@ -1,8 +1,6 @@
-const trending = (req, res) => res.send('Trending Videos');
-const see = (req, res) => {
-  return res.send(`Watch Video #${req.params.id}`);
-};
-const search = (req, res) => res.send('Search Videos');
+const trending = (req, res) => res.render('home', { pageTitle: 'Home' });
+const see = (req, res) => res.render('watch', { pageTitle: 'Watch Video' });
+const search = (req, res) => res.render('edit', { pageTitle: 'Edit Video' });
 const edit = (req, res) => {
   console.log(req.params);
   return res.send('Edit Video');
