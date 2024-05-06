@@ -1,31 +1,28 @@
 {
-  "name": "wetube_2023",
+  "name": "wetube-2024",
   "version": "1.0.0",
   "description": "The best way to watch videos.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/init.js"
+    "dev": "nodemon --exec babel-node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/effysogood/wetube_2023.git"
+    "url": "git+https://github.com/effysogood/wetube-2024.git"
   },
   "author": "Saeyoung Choi <effysogood@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/effysogood/wetube_2023/issues"
+    "url": "https://github.com/effysogood/wetube-2024/issues"
   },
-  "homepage": "https://github.com/effysogood/wetube_2023#readme",
+  "homepage": "https://github.com/effysogood/wetube-2024#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^5.12.3",
-    "morgan": "^1.10.0",
-    "pug": "^3.0.2"
+    "express": "^4.19.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.0",
-    "@babel/node": "^7.22.19",
-    "@babel/preset-env": "^7.22.20",
-    "nodemon": "^3.0.1"
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "nodemon": "^3.1.0"
   }
 }
